@@ -145,7 +145,7 @@ function addUser() {
                     districts: dist.val()
                 },
                 success: function (data) {
-                    var str = '<h3>Пользователь создан</h3>' +
+                    var str = '<h3>Пользователь добавлен</h3>' +
                         '<p>Имя: <b>' + $('#name ').val() + '</b></p>' +
                         '<p>Имейл: <b>' + $('#email').val() + '</b></p>' +
                         '<p>Область: <b>' + $('#regions option:selected').text() + '</b></p>' +
